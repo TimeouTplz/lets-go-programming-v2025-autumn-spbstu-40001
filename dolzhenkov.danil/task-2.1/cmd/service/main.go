@@ -61,6 +61,7 @@ func main() {
 			}
 
 			control.ApplyPreference(operator, temperature)
+
 			fmt.Println(control.CalculateComfort())
 		}
 	}
